@@ -1,0 +1,26 @@
+{
+  "name": "inventory-management-backend-application",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilkushwaha55/Inventory-Management-Backend-Application.git"
+  },
+  "author": "Sahil Kushwaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilkushwaha55/Inventory-Management-Backend-Application/issues"
+  },
+  "homepage": "https://github.com/sahilkushwaha55/Inventory-Management-Backend-Application#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
